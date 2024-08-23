@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#piechart {
+    width: 100%;
+    height: 100%;
+    max-width: 900px;
+    max-height: 500px;
+    margin: auto;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: centers the text elements horizontally */
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0; /* Optional: removes default margin */
+}
